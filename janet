@@ -43,6 +43,26 @@
     :correct 1
     :difficulty :medium}])
 
+    {:question "Pepe is Gen __?"
+    :options ["X" "Y" "Z" "Alpha"]
+    :correct 1
+    :difficulty :hard}])
+
+    {:question "Which language did Pepe refer to as 'Cancer'?"
+    :options ["Janet" "Lua" "JavaScript" "Clojure"]
+    :correct 3
+    :difficulty :medium}])
+
+    {:question "One of Pepe's favorite quotes if from who?"
+    :options ["Socrates" "Bob Marley" "Mohammed Ali" "Elon Musk"]
+    :correct 3
+    :difficulty :hard}])
+
+    {:question "Who is 'Donny' in the live hacking Pepe demoed?"
+    :options ["one of his friends" "his Nephew" "Trump" "his dog"]
+    :correct 3
+    :difficulty :medium}])
+
 # --- Fisher-Yates Shuffle ---
 # Randomly shuffles an array so questions appear in a different order each time.
 (defn shuffle [arr]
