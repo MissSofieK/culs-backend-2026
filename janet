@@ -45,22 +45,22 @@
 
     {:question "Pepe is Gen __?"
     :options ["X" "Y" "Z" "Alpha"]
-    :correct 1
-    :difficulty :hard}
+    :correct 0
+    :difficulty :easy}
 
     {:question "Which language did Pepe refer to as 'Cancer'?"
-    :options ["Janet" "Lua" "JavaScript" "Clojure"]
+    :options ["Janet" "Lua" "Clojure" "JavaScript"]
     :correct 3
     :difficulty :medium}
 
     {:question "One of Pepe's favorite quotes if from who?"
-    :options ["Socrates" "Bob Marley" "Mohammed Ali" "Elon Musk"]
+    :options ["Socrates" "Bob Marley" "Elon Musk" "Mohammed Ali"]
     :correct 3
     :difficulty :hard}
 
     {:question "Who is 'Donny' in the live hacking Pepe demoed?"
-    :options ["one of his friends" "his Nephew" "Trump" "his dog"]
-    :correct 3
+    :options ["His friend" "His Nephew" "Trump" "His dog"]
+    :correct 2
     :difficulty :medium}])
 
 # --- Seeded RNG ---
